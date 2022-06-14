@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+.App {
+  text-align: center;
+  padding: 0;
+  width: 100;
+  height: 100vh;
+  text-align: center;
+  background-image: url("./img/romanos.png");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  font-family: Gideon;
+}
+
+.container{
+  padding-top: 7%;
+}
+.container2{
+  background-color: #00000025;
+  border-radius: 10px;
+  width: 100%;
+}
+.row{
+  padding: 10px;
+  margin: 10px;
+}
+.values{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
